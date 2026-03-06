@@ -50,6 +50,7 @@ git pull origin main
 ```
 
 ### **The .gitignore you should add (for web dev)**
+```
 # Node.js
 node_modules/
 npm-debug.log*
@@ -73,6 +74,6 @@ Thumbs.db
 
 # SASS/SCSS cache
 .sass-cache/
-
+```
 
 
