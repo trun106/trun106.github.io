@@ -49,8 +49,30 @@ git push origin <name-of-the-branch>
 git pull origin main
 ```
 
-### **The .gitignore you should add (for cpp)**
+### **The .gitignore you should add (for web dev)**
+# Node.js
+node_modules/
+npm-debug.log*
 
+# Build output
+dist/
+build/
+_site/
+public/
+.cache/
+.jekyll-cache/
+.nuxt/
+.next/
+
+# Local/Editor/System files
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# SASS/SCSS cache
+.sass-cache/
 
 
 
