@@ -1,79 +1,23 @@
-# trun106.github.io
-# My Github website 
+# Vu Quang Trung - Personal Web Portfolio
 
-## Setup
+A clean, responsive, and lightweight personal portfolio website built entirely with HTML5 and vanilla CSS3. Designed to showcase my academic projects and technical skills as a Computer Engineering student.
 
-### *When begin to code*
+## Features
+*   **Semantic HTML5:** Clean, accessible markup structure.
+*   **Modern CSS3:** Uses CSS Flexbox for responsive layouts without relying on heavy frameworks like Bootstrap.
+*   **Fully Responsive:** Navigation and grids adapt gracefully to different screen sizes.
+*   **Cross-Page Navigation:** Consistent routing between Home, About, and Projects pages.
 
-* Clone repo:
+## Tech Stack
+*   HTML
+*   CSS
 
-```bash
-git clone https://github.com/trun106/trun106.github.io/
-```
+## File Structure
+*   `index.html` - The landing page.
+*   `about.html` - Professional biography and links.
+*   `projects.html` - Showcase of programming assignments and independent work.
+*   `style.css` - Global stylesheet containing all design logic.
+*   `assets/` - Directory for images and media.
 
-* Create new branch:
-
-```bash
-git checkout -b <name-of-the-branch>
-```
-
-
-
-### *Push the code on Git*
-
-Before push.
-
-* Add changes:
-
-```bash
-git add .
-```
-
-* Commit changes:
-
-```bash
-git commit -m "Description"
-```
-
-* Push on the created branch:
-
-```bash
-git push origin <name-of-the-branch>
-```
-
-* In repo page → tab **Pull requests** → **New Pull Request**, in *compare* choose your branch → **Create pull request** → then report to group. When the code accepted, code will be merged into branch `main`.
-
-### **Update from main branch anytime**
-
-```bash
-git pull origin main
-```
-
-### **The .gitignore you should add (for web dev)**
-```
-# Node.js
-node_modules/
-npm-debug.log*
-
-# Build output
-dist/
-build/
-_site/
-public/
-.cache/
-.jekyll-cache/
-.nuxt/
-.next/
-
-# Local/Editor/System files
-.env
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# SASS/SCSS cache
-.sass-cache/
-```
-
-
+## Setup and Usage
+Simply clone this repository and open `index.html` in any modern web browser to view the site locally. No build tools or servers are required.
